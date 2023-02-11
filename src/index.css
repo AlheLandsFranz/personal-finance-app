@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa', "Arial";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--font-color);
+}
+
+a{
+  text-decoration: none;
+  color:wheat;
+}
+
+code {
+  font-family: 'Comfortaa';
+}
+
+:root {
+  --background: #1f1f1f;
+  --font-color: white;
+  --btn-color: rgb(42, 180, 255);
+}
+
+/* Chrome, Edge and Safari */
+body::-webkit-scrollbar {
+  width: 16px;
+  width: 16px;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #2E332C;
+}
+
+body::-webkit-scrollbar-track:hover {
+  background-color: #899883;
+}
+
+body::-webkit-scrollbar-track:active {
+  background-color: #2E332C;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #00BFA6;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #00BFA6;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: #00BFA6;
+}
+

@@ -1,0 +1,8 @@
+.tr {
+    text-align: center;
+    background-color: #5C5A5A;
+}
+
+.clickable {
+    cursor: url("assets/edit.png") 16 16, pointer;
+}

@@ -1,0 +1,186 @@
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 178px 30% 1fr;
+}
+
+.leftInfoWrapper {
+    background-color: #FFFFFF;
+    padding: 75px 20px 20px 20px;
+    color: black;
+}
+
+.formsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: calc(100% - 95px);
+}
+
+.reseñas {
+    color: black;
+}
+
+.reviewInput {
+    width: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    height: calc(100px - 10px);
+    max-height: calc(100px - 10px);
+    resize: none;
+    border: none;
+    background-color: #E1DFDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 5px;
+}
+
+.reviewDeleteButton {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    text-overflow: none;
+    width: min-content;
+}
+
+.reviewSendButton {
+    background-color: lightseagreen;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    text-overflow: none;
+    width: min-content;
+}
+
+
+.rightInfoWrapper {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    background-color: #2a2a2a;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 1fr;
+    justify-content: center;
+    justify-items: center;
+    overflow: auto;
+}
+
+.infoContainer {
+    display: flex;
+    padding: 40px 25px;
+    width: calc(100% - 50px);
+    flex-direction: column;
+    background-color: #252525;
+    justify-content: space-around;
+    position: relative;
+}
+    
+.profilePic {
+    height: 100%;
+    cursor: pointer;
+}
+
+input {
+    background-color: white;
+    width: 100%;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit {
+    border-radius: 50%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #454545;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.update {
+    border-radius: 50%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #454545;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.msg {
+    align-self: center;
+    margin: 0px;
+    padding: 5px 10px;
+    width: calc(100% - 20px);
+    background-color: rgb(28, 202, 28);
+    color: rgb(249, 255, 249);
+    text-align: center;
+}
+.deleteAccountButton {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    text-overflow: none;
+    width: max-content;
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+}
+
+.deleteAccountModal {
+    position: absolute;
+    top: 25vh;
+    left: 25%;
+    width: calc(50% - 50px);
+    height: calc(40vh - 50px);
+    padding: 25px 25px;
+    z-index: 2;
+    background-color: #252525;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.confirmButton {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    text-overflow: none;
+    width: min-content;
+}
+
+.closeButton {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
